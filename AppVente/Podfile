@@ -1,0 +1,13 @@
+platform :ios, '15.0'
+
+target 'AppVente' do
+  use_frameworks!
+	pod 'Hero'
+	pod 'SwiftLint'
+	pod 'SDWebImage'
+  pod 'FirebaseCore'
+  pod 'FirebaseDatabase'
+  pod 'FirebaseAuth'
+  pod 'NVActivityIndicatorView'
+  pod 'IQKeyboardManager'
+end
